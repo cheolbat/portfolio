@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;0,700;0,900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <h1 class="logo">Portfolio</h1>
+
+    <button class="menu-btn">☰</button>
+
+    <ul class="nav-list">
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#equipment">Equipment</a></li>
+      <li><a href="#recruit">Recruit</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="intro" class="intro">
+  <div class="intro-inner">
+    <img src="img/profile2.jpg" alt="profile photo" class="profile-img" />
+
+    <div class="intro-text">
+      <h2>이철배</h2>
+      <p class="subtitle">Electrochemistry · Energy Materials</p>
+
+      <p class="desc">
+        실험실에서 검증된 아이디어를  
+        실제 작동하는 시스템으로 연결하는 연구를 합니다.
+      </p>
+
+      <ul class="hobby">
+        <li>🏃🏻‍♂️ 러닝 </li>
+        <li>⛰️ 등산 </li>
+        <li>🏊🏻‍♂️ 수영</li>
+      </ul>
+    </div>
+  </div>
+  </section>
+  <section id="motivation" class="section motivation reveal">
+  <div class="motivation-inner">
+    <div class="motivation-text">
+      <h2>Why Energy & Environment</h2>
+      <p>
+        산불 피해 지역에서 열린 러닝 대회에 참여하며,<br />
+        환경 문제는 추상적인 개념이 아니라
+        개인의 삶과 직접 맞닿아 있는 문제라는 것을 체감했습니다.
+      </p>
+      <p>
+        그 경험은 화학 전공 지식을
+        에너지·환경 문제 해결로 연결해야겠다는
+        방향성을 더욱 분명하게 만들어 주었습니다.
+      </p>
+    </div>
+
+    <div class="motivation-gallery">
+      <img src="img/run1.png" alt="running event" />
+      <img src="img/run2.png" alt="medal" />
+    </div>
+  </div>
+  </section>
+  <section id="research" class="research section reveal" >
+  <div class="research-inner">
+
+    <!-- Section Title -->
+    <h2 class="section-title">석사과정 연구 내용</h2>
+
+    <!-- Summary -->
+    <div class="research-summary">
+      <p class="research-keyword">
+        Large-area · Uniform synthesis · Direct seawater electrolysis
+      </p>
+
+      <h3 class="research-title">
+        대면적 탄소섬유 지지체 기반<br>
+        MoS₂ 전극의 균일 합성과 해수 수전해 적용
+      </h3>
+
+      <p class="research-desc">
+        산업 규모 수전해 시스템에서는 높은 촉매 활성뿐만 아니라,
+        대면적 전극 전반에 걸친 구조적 균일성과 장기 안정성이 필수적입니다.
+        본 연구에서는 탄소섬유 지지체 상에서 발생하는 촉매 성장의
+        비균일성 문제를 해결하는 데 초점을 맞추었습니다.
+      </p>
+    </div>
+
+    <!-- Flow -->
+    <div class="research-flow">
+      <div class="flow-item">
+        <h4>문제 인식</h4>
+        <p>
+          대면적 탄소섬유 지지체에서 촉매가 불균일하게 성장하면서,
+          전극 성능 저하 및 장기 안정성 문제가 발생함.
+        </p>
+      </div>
+
+      <div class="flow-item">
+        <h4>접근 방법</h4>
+        <p>
+          촉매 성장 조건을 정밀하게 제어하여,
+          최대 32 × 16 cm² 크기의 전극 전반에 걸쳐
+          균일한 MoS₂ 합성 전략을 설계함.
+        </p>
+      </div>
+
+      <div class="flow-item">
+        <h4>연구 성과</h4>
+        <p>
+          균일 합성된 전극은 해수 수전해 조건에서 향상된 전기화학적 안정성을 가져 안정화된 수소 발생 성능을 보임.
+        </p>
+      </div>
+    </div>
+
+    <!-- Workflow -->
+    <div class="research-workflow">
+      <h4 class="workflow-title">Research Workflow</h4>
+
+      <ol class="workflow-list">
+        <li>
+          <span class="step">01</span>
+          <p>전극 합성</p>
+        </li>
+        <li>
+          <span class="step">02</span>
+          <p>구조 분석 <br>(SEM, TEM, XRD)</p>
+        </li>
+        <li>
+          <span class="step">03</span>
+          <p>전기화학 <br>셀 구성</p>
+        </li>
+        <li>
+          <span class="step">04</span>
+          <p>성능 평가 <Br>(LSV, EIS, CP)</p>
+        </li>
+        <li>
+          <span class="step">05</span>
+          <p>내구성 및<br>안정성 분석</p>
+        </li>
+      </ol>
+    </div>
+
+
+    <!-- Visuals -->
+    <div class="research-visual">
+      <figure class="visual-item">
+        <div class="visual-img">
+          <img src="img/research1.png" alt="SEM image">
+        </div>
+        <figcaption>
+          Uniform MoS₂ growth on carbon cloth (SEM)
+        </figcaption>
+      </figure>
+
+      <figure class="visual-item">
+        <div class="visual-img">
+          <img src="img/research2.png" alt="Electrode photo">
+        </div>
+        <figcaption>
+          Electrochemical stability
+        </figcaption>
+      </figure>
+    </div>
+
+
+    <!-- PDF link -->
+    <a class="research-pdf" href="pdf/포트폴리오_이철배.pdf" target="_blank">
+      View full research details (PDF)
+    </a>
+
+  </div>
+  </section>
+  <section id="publications" class="section publications reveal">
+  <h2 class="section-title">Publications & Writing</h2>
+  
+  <!-- Journal Paper -->
+  <div class="publication-card">
+    <div class="pub-thumb">
+      <img src="img/paper.png" alt="paper screenshot" />
+    </div>
+
+    <div class="pub-content">
+      <span class="pub-label">Journal Article · Co-author</span>
+      <h3 class="pub-title">
+        Unlocking the potential of MoS<sub>2</sub> for efficient hydrogen generation by controlling hydrothermal conditions
+      </h3>
+      <p class="pub-meta">
+        Int. J. Hydrog. Energy, 2025
+      </p>
+
+      <div class="pub-actions">
+        <a href="https://www.sciencedirect.com/science/article/pii/S0360319925036705?via%3Dihub" target="_blank" class="btn outline">
+          Journal Link
+        </a>
+        <a href="pdf/International Journal of Hydrogen Energy 161 (2025) 150671.pdf" class="btn outline">
+          PDF
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chemistry World -->
+  <div class="publication-card">
+    <div class="pub-thumb">
+      <img src="img/chemicals.jpg" alt="chemistry world article" />
+    </div>
+
+    <div class="pub-content">
+      <span class="pub-label">Science Writing</span>
+      <h3 class="pub-title">
+        대한화학회 『화학세계』 기고
+      </h3>
+      <p class="pub-meta">
+        Korean Chemical Society Magazine
+      </p>
+
+      <div class="pub-actions">
+        <a href="https://chemworld.kcsnet.or.kr/post/직접해수전해를-위한촉매-재료와-전기화학시스템" target="_blank" class="btn outline">
+          Read Article
+        </a>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section id="equipment" class="section equipment-section reveal">
+  <h3 class="section-title">Hands-on Research Equipment</h3>
+
+  <!-- 합성 장비 -->
+  <div class="equipment-group">
+    <h4 class="group-title">Synthesis Equipment</h4>
+    <div class="equipment-grid">
+      <article class="equipment-card">
+        <img src="img/synthesis/pres50.png" alt="pres50" />
+        <h5>고압반응기(50mL)</h5>
+        <p>Berghof, DAB-2</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/synthesis/pres1.png" alt="CVD" />
+        <h5>고압반응기 (1L)</h5>
+        <p>Berghof, BR-1000</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/synthesis/pres5.png" alt="Autoclave" />
+        <h5>고압반응기 (5L)</h5>
+        <p>Berghof, BR-4000</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/synthesis/furnace.png" alt="Spin Coater" />
+        <h5>퍼니스</h5>
+        <p>SH Scientific</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/synthesis/tube_furnace.png" alt="Ultrasonic" />
+        <h5>튜브 퍼니스</h5>
+        <p>SH Scientific</p>
+      </article>
+    </div>
+  </div>
+
+  <!-- 특성 분석 장비 -->
+  <div class="equipment-group">
+    <h4 class="group-title">Characterization Equipment</h4>
+    <div class="equipment-grid">
+      <article class="equipment-card">
+        <img src="img/character/sem.png" alt="SEM" />
+        <h5>주사전자현미경 (SEM)</h5>
+        <p>HITACHI, S-4800</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/character/tem.png" alt="TEM" />
+        <h5>투과전자현미경 (TEM)</h5>
+        <p>FEI Tecnai G2</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/character/esem.png" alt="XRD" />
+        <h5>환경주사전자현미경 (ESEM)</h5>
+        <p>Thermofisher, Quattro</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/character/xrd.png" alt="XRD" />
+        <h5>X-선 회절분석기(XRD)</h5>
+        <p>Rigaku, Miniflex 600</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/character/uv.png" alt="Raman" />
+        <h5>UV-Vis 분광기(UV-Vis)</h5>
+        <p>Renishaw inVia</p>
+      </article>
+
+      <article class="equipment-card">
+        <img src="img/character/potentio.png" alt="Electrochemistry" />
+        <h5>전기화학계측기</h5>
+        <p>ZIVE, MP2F</p>
+      </article>
+    </div>
+  </div>
+  </section>
+  <section id="recruit" class="recruit">
+  <div class="recruit-inner">
+
+    <h2 class="recruit-title">
+      함께 일할 멋진 연구자를 찾고 계신가요?
+    </h2>
+
+    <div class="bio">
+      <h3 class="bio-title">
+        이럴 때 제가 딱<br>어울릴 것 같아요
+      </h3>
+
+      <ol class="bio-list">
+        <li class="bio-item">책임감 있고 함께 일할 때 시너지를 주는 팀원이 필요할 때</li>
+        <li class="bio-item">성장하지만 겸손을 잃지 않는 사람이 필요할 때</li>
+        <li class="bio-item">좋아하는 일을 잘하는 사람이 필요할 때</li>
+      </ol>
+    </div>
+
+    <div class="btn btn-recruit">
+      <a href="https://cheolbae.notion.site/8096d58699d64edb85a4ef7d33803dcd" target="_blank">
+        이력서 열람 <span class="line"></span>
+      </a>
+    </div>
+
+  </div>
+  </section>
+<section id="contact" class="contact-section">
+  <div class="contact-inner">
+    <h3 class="contact-title">함께 나누고 싶은 이야기가 있다면</h3>
+
+    <a
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=cheolship@gmail.com"
+      target="_blank"
+      class="contact-email"
+    >
+      cheolship@gmail.com
+    </a>
+
+    <p class="contact-desc">
+      <span>빠</span>
+      <span>르</span>
+      <span>게</span>
+      <span>답</span>
+      <span>변</span>
+      <span>드</span>
+      <span>리</span>
+      <span>겠</span>
+      <span>습</span>
+      <span>니</span>
+      <span>다.</span>
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  © 2026 Portfolio
+</footer>
+
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
